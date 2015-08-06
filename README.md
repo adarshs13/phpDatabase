@@ -1,36 +1,11 @@
-Hard-Drive-Monitor
+PHP MySQL Database Application
 ==================
-Key points to this script include:
-·         Uses DD to zero multiple drives
-
-·         A pre defined list of drive letters is used during scan every 30 seconds, which makes it easy to adjust which drive letters to monitor for or exclude
-
-·         Blinking finished drives
-
-·         Reporting progress – every 30 seconds
-
-o    progress bar
-
-o    current write speed
-
-o    estimated competition time
-
-·         Reporting complete
-
-o    the average write speed
-
-o    size of the drive
-
-o    duration
-
-·         Clean formatting time library
-
-o    parse_date(<offset in sec>,<format>);
-
-·         Ability to watch progress from other sessions
-
-·         Master session take over (so if main session dies, view only session will become new master to start new drives)
-
+Description-
+ This application was created to represent a Health Inspection website that is backed by a MySQL database.
+ The site recognizes three types of users (Inspector, Operator, and Guest) and provides specific tools for each user type.
+ The 
  
-Features not included:
-·         logging
+Features-
+  1. Includes HTML5 input validation
+  2. Includes Javascript to limit input values to specific range
+  3. Uses newer mysqli module to query database
